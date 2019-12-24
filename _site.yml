@@ -1,13 +1,27 @@
-name: "my-website"
+name: "Alejandra Enriquez"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Alejandra Enriquez Website"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Writing"
+      href: research.html
+    - text: "Speaking"
+      href: talks.html
+    - text: "Programming"
+      href: software.html
+    - text: "Teaching"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/enriqueza
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/aescientist
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/alejandra-enriquez-ra/ 
 output:
   html_document:
-    theme: cosmo
-    highlight: textmate
+    theme: paper
+    css: 'styles.css'
   
